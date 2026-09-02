@@ -4,13 +4,12 @@ This project was originally developed by Gagan (github.com/devgaganin).
 Reference: https://t.me/advance_quiz_bot
 The codebase has been reviewed and verified with the assistance of Claude AI.
 """
-from ..auth_middleware import is_authorized
-
 from __future__ import annotations
 
 import asyncio
 import logging
 
+from ..auth_middleware import is_authorized
 from telegram import Update
 from telegram.constants import ParseMode
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
