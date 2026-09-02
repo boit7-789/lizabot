@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import asyncio
 import base64
-from ..auth_middleware import is_authorized
+from ...auth_middleware import is_authorized
 import logging
 import os
 import time
