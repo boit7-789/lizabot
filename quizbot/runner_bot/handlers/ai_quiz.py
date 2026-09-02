@@ -8,7 +8,7 @@ The codebase has been reviewed and verified with the assistance of Claude AI.
 from __future__ import annotations
 
 import asyncio
-from ..auth_middleware import is_authorized
+from ...auth_middleware import is_authorized
 import logging
 import random
 import time

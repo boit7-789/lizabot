@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import logging
 import random
-from ..auth_middleware import is_authorized
+from ...auth_middleware import is_authorized
 import time
 
 from telegram import Update
