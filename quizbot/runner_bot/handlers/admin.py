@@ -9,7 +9,7 @@ from __future__ import annotations
 import asyncio
 import logging
 
-from ..auth_middleware import is_authorized
+from ...auth_middleware import is_authorized
 from telegram import Update
 from telegram.constants import ParseMode
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
